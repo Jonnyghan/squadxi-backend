@@ -1,0 +1,16 @@
+Team
+has_many :players
+Name: String
+League: String
+
+
+Players
+belongs_to: Team
+Team Id: Integer
+Name: String
+Age: Integer
+Position: String
+
+
+fetch(`http://localhost:300/api/v1/teams`)
+fetch(`http://localhost:300/api/v1/players`)
