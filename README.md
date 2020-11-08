@@ -1,24 +1,2 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Squad XI is an organizational tool for any coach to keep track of and manage their teams over the course of the season.
+This repo is BACKEND ONLY. To see the front end please visit https://github.com/Jonnyghan/squadxi-frontend
