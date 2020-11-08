@@ -23,8 +23,10 @@ class Api::V1::PlayersController < ApplicationController
     end
 
     def destroy
+       # binding.pry
         @player = @team.players.find(params[:id])
         @player.destroy
+        render json: @team
     end
 
     def set_team
