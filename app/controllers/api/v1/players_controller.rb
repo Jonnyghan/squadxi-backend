@@ -8,9 +8,10 @@ class Api::V1::PlayersController < ApplicationController
     end
 
     def create
-        @player = @team.player.new(player_params)
+        
+        @player = @team.players.new(player_params)
         if @player.save
-            render json: @player
+            render json: @team
         else 
             render json: {error:'Ya done goofed, try again'}
         end
